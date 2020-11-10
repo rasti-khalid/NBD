@@ -1,0 +1,34 @@
+db.people.insertOne(
+    {
+        "sex":"Male",
+        "first_name":"Rasti",
+        "last_name":"Blbas",
+        "job":"Student",
+        "email":"rastyroyal@gmail.com",
+        "location":
+                    {
+                        "city":"warsaw",
+                        "address":
+                                {
+                                    "streetname":"balladyny",
+                                    "streetnumber":"1",
+                                }
+                    },
+        "description":"heyy",
+        "height":"179",
+        "Weight":"85",
+        "birth_date":"1998-10-2",
+        "nationality":"kurdish",
+        "credit":
+                {
+                    "0":
+                        {
+                            "type":"mastercard",
+                            "number":"56022541652043117",
+                            "currency":"COP",
+                            "balance":"3843.63",
+                        },
+                    
+                }
+    }
+)
